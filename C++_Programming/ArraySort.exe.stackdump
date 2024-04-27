@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=0040122D
+eax=00009109 ebx=0062CC3C ecx=20018020 edx=7FFE0384 esi=200614C5 edi=0062CC50
+ebp=0062CC18 esp=0062CBC0 program=E:\Programs\C++_Programming\ArraySort.exe, pid 22280, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0062CC18  0040122D (00000001, 0062CC3C, 200280F0, 61009DE8)
+0062CD08  200614C5 (00000000, 0062CD64, 61008DE0, 00000000)
+End of stack trace
