@@ -1,3 +1,4 @@
+//This program is to sort an array using liner approach
 #include "iostream"
 
 using namespace std;
