@@ -90,7 +90,7 @@ string str8="the quick brown fox jumps ovef the lazy dog";
 str8.erase(remove(str8.begin(),str8.end(), ' '),str8.end());
 sort(str8.begin(),str8.end());
 cout<<str8<<endl;
-//Beofre for remove all duplicates from the str8 sorted string
+//Before remove all duplicates from the str8 sorted string
 for(int i=0;i<str8.length();i++){
     cout<<str8[i]<<" "<<(int)str8[i]<<endl;
     if((int)str8[i]!=i+97){
