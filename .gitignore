@@ -3,3 +3,5 @@ C++_Programming/Array.exe
 C++_Programming/*.exe
 C_Programming/*.exe
 *.json
+*.stackdump
+tempCodeRunnerFile.cpp
