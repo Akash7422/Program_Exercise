@@ -98,5 +98,34 @@ for(int i=0;i<str8.length();i++){
         break;
     }
 }
+//22.CovertToUpper or ConvertToLower Build in function
+string str9="Akash";
+//transform(string starting, string Ending, From where to start,::toupper/tolower  )
+transform(str9.begin(),str9.end(),str9.begin(),::toupper);
+cout<<str9<<endl;
+transform(str9.begin(),str9.end(),str9.begin(),::tolower);
+cout<<str9<<endl;
+//23.Biggest possible number from given string numerical
+string str="58372";
+sort(str.begin(),str.end(),greater<int>());
+cout<<str<<endl;
+//24.Finding most repeated character in a string
+string str10="akash is is is is a good boy";
+int freq[26];
+for(int i=0; i<26; i++)
+freq[i] = 0;
+for(int i=0; i<26;i++){
+    freq[str10[i]-'a']++;
+}
+int count=0;
+char Ans='a';
+for(int i=0; i<26; i++){
+    count=max(freq[i],count);
+    if(freq[i]>count){
+        Ans='a'+i;
+    }
+    
+}
+cout<<"most repeated character in a string is:"<< Ans << " "<< "count is:"<<count<<endl;
 
 }
