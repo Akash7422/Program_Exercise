@@ -62,6 +62,8 @@ int main()
     cout << updateBit(num, n, 1) << endl;
 
     cout << "number of 1's:" << getNumberOfOnes(11) << endl;
-    
+     n=13;
+    cout<<"Complement of a number n: "<<~n<<endl;
+
     getNumberOfOnesAndZeros(11);
 }
