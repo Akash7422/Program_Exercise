@@ -78,6 +78,8 @@ int main()
     // char* src= src1;
     // stringCat(des,src);
     //stringCmp(des, src);
+    int ch='A';
+    printf("%d\n",ch);
     char str1[]="HELLo uyeHd";
     char str2[]="hellO";
     convertToLower(str1);
