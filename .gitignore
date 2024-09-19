@@ -5,3 +5,5 @@ C_Programming/*.exe
 *.json
 *.stackdump
 tempCodeRunnerFile.cpp
+.vscode/settings.json
+.vscode/tasks.json
